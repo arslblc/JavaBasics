@@ -14,15 +14,9 @@ public class Question3 {
 		for(int x=1; x<=10; x++) {
 			System.out.println(a+ " ");
 	    c=a+b;
-
-	    a=b;
+        a=b;
 	    b=c;
 	    
-		
-		
-		
-		
-		
 		}
 
 	}
