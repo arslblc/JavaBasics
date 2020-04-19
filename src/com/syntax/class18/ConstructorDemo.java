@@ -16,7 +16,7 @@ public class ConstructorDemo {
 	ConstructorDemo(String abc, int x){
 		System.out.println("I am your constructor with 1 string parameter and 1 integer "+abc+x);
 	}
-	void ConstructorDemo() {
+	void ConstructorDemo() { //as soon as we add return type, it becomes method===> this is method so you need to call it explicitly
 		System.out.println("I do not know who i am");
 	}
 	
@@ -28,6 +28,7 @@ public class ConstructorDemo {
 		ConstructorDemo obj1=new ConstructorDemo("Hi guys");
 		ConstructorDemo obj2=new ConstructorDemo("Hi girls", 25);
 		ConstructorDemo obj3=new ConstructorDemo();
+		obj3.ConstructorDemo();
 	}
 
 }
