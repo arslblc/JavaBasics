@@ -1,4 +1,4 @@
-package com.udemy.selenium;
+package com.syntax.selenium.class01;
 
 public class Parent {
 public static void main (String[] args) {

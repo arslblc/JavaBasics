@@ -1,4 +1,4 @@
-package com.udemy.selenium;
+package com.syntax.selenium.class01;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +11,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 public class Demo {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 	//	//TODO Auto-generated method stub
 //selenium code-
 		
@@ -32,9 +32,10 @@ public class Demo {
 	driver.findElement(By.name("pass")).sendKeys("12345");
 	driver.findElement(By.linkText("Forgot account?")).click();*/
 	
-	driver.get("http://login.salesforce.com");
-	driver.findElement(By.id("username")).sendKeys("This is my second code");
-	driver.findElement(By.xpath("//*[@id=‘Login’]")).click();
+	driver.get("http://zillow.com");
+	Thread.sleep(2000);
+	driver.close();
+	
 	
 	}
 	}
